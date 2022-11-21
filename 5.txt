@@ -1,0 +1,12 @@
+web crawling is indexing data on web pages by using a program or automated script.
+Website crawling :
+Crawler has several endpoints to control the service or atleast postman to showcase the process
+steps :
+1.choose the post method and specify the jobs endpoint of a crawler API.
+2.Create a new crawler job.
+3.In the authentication tab fill your API user credentials.
+4.Add the content type as application/json.
+5.request header.
+6.Then in the body, set the type to raw.
+7.Configure the payload.
+8.Extract the web data (like html) which is resulted from a website.
