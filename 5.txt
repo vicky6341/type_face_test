@@ -10,3 +10,19 @@ steps :
 6.Then in the body, set the type to raw.
 7.Configure the payload.
 8.Extract the web data (like html) which is resulted from a website.
+
+To save images :
+Python web scraping to download images.
+1.Install Beautiful Soup by typing pip install bs4 in the command line.
+2.Then type pip install requests to install requests.
+3.Import module
+4.Make requests instance and pass into URL
+5.Pass the requests into a Beautifulsoup() function 
+6.Use 'img' tag to find them all tag ('src').
+
+To get data from a website :
+1.Inspect the website HTML that you want to crawl
+2.Access URL of the website using code and download all the HTML contents on the page
+3.Format the downloaded content into a readable format
+4.Extract out useful information and save it into a structured format
+5.For information displayed on multiple pages of the website, you may need to repeat steps 2–4 to have the complete information.
